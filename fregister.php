@@ -99,7 +99,7 @@ legend{
 </tr>
 <tr>
 <td>Mobile</td>
-<td><input type="tel>" name="mobile" required="required"></td>
+<td><input type="tel" pattern="[0-9]{10}" name="mobile" required="required"></td>
 </tr>
 <tr>
 <td>Address</td>
